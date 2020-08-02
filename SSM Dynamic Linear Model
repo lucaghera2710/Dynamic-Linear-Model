@@ -3,8 +3,8 @@
 
 # State space model (Gaussian disturb, see algorithms of Durbin & Koopman "Time Series Analysis by State Space Methods" )
 
-# y_t   = dd + ZZ*a_t  + eps_t 
-# a_t+1 = cc + TT*a_t + RR*eta_t
+# y_t   = dd + ZZ*a_t  + eps_t     eps_t ~ N(0,H),
+# a_t+1 = cc + TT*a_t + RR*eta_t   eta_t ~ N(0,Q),
 # a_0 ~ N(a0,P0)
 
 
